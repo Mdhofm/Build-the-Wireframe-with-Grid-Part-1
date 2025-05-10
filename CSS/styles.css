@@ -1,0 +1,71 @@
+@import url("./reset.css"); 
+
+.grid-container {
+    height: 100vh;    
+    display: grid;  
+    grid-template-columns: .8fr; 
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr; 
+    justify-content: center;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.grid-wrapper {
+    display: grid;   
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+
+header {
+    background-color: #9f2063;  
+    height: 70px;  
+    margin-top: 5px; 
+}
+
+main.grid-wrapper {
+    height: 100%;  
+    background-color: #23b87b; 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: .9fr;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+article {
+    background-color: #e4195b; 
+    font-size: .95em;
+    height: 65px;
+    text-align: center;
+    
+    
+}
+
+aside {
+    background-color: #116395; 
+    height: 70px; 
+}
+
+footer {
+    background-color: #e06b26; 
+    height: 70px; 
+}
+
+.border {
+    border-radius: 8px; 
+}
+
+body {  
+    background-color: #b1b5be;
+    color: #f0f6fb; 
+    font-size: 1.5em;
+    font-family: arial; 
+    text-align: center; 
+}
+
+
+
+
