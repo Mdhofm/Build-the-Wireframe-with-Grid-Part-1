@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="grid-container">
-      <header class="grid-wrapper box border">Header</header>
-      <aside class="grid-wrapper box border">Aside</aside>
-      <main class="grid-wrapper box border">
-        <article class="grid-wrapper height border">Column</article>
-        <article class="grid-wrapper height border">Column</article>
-        <article class="grid-wrapper height border">Column</article>
-      </main>
-      <aside class="grid-wrapper box border">Aside</aside>
-      <footer class="grid-wrapper box border">Footer</footer>
+    <div class="grid-outer">
+      <div class="grid-container">
+        <header class="grid-wrapper box border item-1">Header</header>
+        <aside class="grid-wrapper box border">Aside</aside>
+        <main class="grid-wrapper box border">
+          <article class="hidden">Article</article>
+          <article class="grid-wrapper height border item-3">Column</article>
+          <article class="grid-wrapper height border item-4">Column</article>
+          <article class="grid-wrapper height border item-5">Column</article>
+        </main>
+        <aside class="grid-wrapper box border">Aside</aside>
+        <footer class="grid-wrapper box border item-2">Footer</footer>
+      </div>
     </div>
   </body>
 </html>
